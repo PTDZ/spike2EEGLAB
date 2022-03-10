@@ -19,12 +19,11 @@ Note: Import is possible via .mat files that can be saved in CED Spike software.
 
 ### Example Usage
 
-You can download two sample files from /sample directory:
-* sample-one.mat (with DigMark channels)
-* sample-two.mat (without DigMark channels)
+You can download sample file from /sample-data directory:
+* sample-data.mat (with Keyboard/DigMark channels)
 
 ```sh
-[EEG] = spike2EEGLAB('sample-one.mat')
+[EEG] = spike2EEGLAB('sample-data.mat')
 EEGLAB redraw
 ```
 

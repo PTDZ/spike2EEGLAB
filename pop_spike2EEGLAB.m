@@ -26,7 +26,8 @@
 % GNU General Public License for more details.
 %
 % Revision 1.2 03.2022 PTDZ
-% adding EEG structure update for new versions of EEGlab (2019.1 and later)
+% adding EEG structure update for new versions of EEGLAB (2019.1 and later)
+% adding possibility of loading files through EEGLAB GUI
 % Revision 1.1 06.2021 PTDZ
 % adding DigMark reading
 
