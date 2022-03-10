@@ -36,5 +36,5 @@ function eegplugin_spike2EEGLAB(fig,trystrs, catchstrs)
 
 % create menu
 menuSelection = findobj(fig, 'tag', 'import data');
-comcnt1 = [ trystrs.no_check '[EEG] = pop_spike2EEGLAB();'  catchstrs.new_non_empty ];
+comcnt1 = [ trystrs.no_check '[EEG] = spike2EEGLAB();'  catchstrs.new_non_empty ];
 uimenu( menuSelection, 'label', 'From CED Spike Matlab file (.mat)',  'callback', comcnt1, 'separator', 'on' );
