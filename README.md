@@ -1,6 +1,6 @@
 <div id="top"></div>
 
-# Spike2EEGLAB
+# spike2EEGLAB
 
 spike2EEGGLAB(): load CED Spike format dataset (.mat) and return EEGLAB EEG structure
 
