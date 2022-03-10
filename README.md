@@ -10,7 +10,7 @@ spike2EEGGLAB(): load CED Spike format dataset (.mat) and return EEGLAB EEG stru
 ```
 
 ### Inputs:
-fileName - path to the file (i.e. 'fileToConvert.mat')
+fileName - path to the file (e.g. 'sample_data.mat')
 
 ### Outputs
 EEG - EEGLAB EEG structure
@@ -20,10 +20,10 @@ Note: Import is possible via .mat files that can be saved in CED Spike software.
 ### Example Usage
 
 You can download sample file from /sample-data directory:
-* sample-data.mat (with Keyboard/DigMark channels)
+* sample_data.mat (with Keyboard/DigMark channels)
 
 ```sh
-[EEG] = spike2EEGLAB('sample-data.mat')
+[EEG] = spike2EEGLAB('sample_data.mat')
 EEGLAB redraw
 ```
 

@@ -1,16 +1,16 @@
-% spike2EEGLAB()--load CED Spike format dataset and return EEGlab EEG structure
+% spike2EEGLAB()--load CED Spike format dataset and return EEGLAB EEG structure
 %
 % Usage:
 %   >> [EEG] = spike2EEGLAB(fileName)
 %
 % Inputs:
-%   fileName  - path to file (i.e. 'fileToConvert.mat')
+%   fileName  - path to file (e.g. 'sample_data.mat')
 % Outputs:
 %   EEG       - EEGLAB EEG structure
 %
 % Note:
-%   Import is possible via .mat files that can be saved in CED Spike
-%   system.
+%   Import is possible with .mat files that can be exported from CED Spike
+%   software.
 %
 % Author: P. Dzianok, 2020-2022
 % Copyright (C) 2020 P. Dzianok, mail@ptdz.pl
