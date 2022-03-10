@@ -65,4 +65,4 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 Patrycja | mail[at]ptdz.pl
 
-Project Link: https://github.com/PTDZ/spike2EEGlab
+Project link: https://github.com/PTDZ/spike2EEGLAB
