@@ -27,7 +27,10 @@ You can download sample file from /sample-data directory:
 EEGLAB redraw
 ```
 
-You can also copy spike2EEGLAB directory to your EEGLAB's 'plugins' subdirectory (e.g. eeglab_current\eeglab2021.1\plugins).
+You can download spike2EEGLAB from EEGLAB:
+1. File > Manage EEGLAB extensions
+2. Search for 'spike2EEGLAB' OR filter the plugins with 'import' keyword and find spike2EEGLAB plugin
+3. Click Install/Update
 
 Then you can simply use the plugin from EEGLAB GUI:
 ```sh
@@ -38,9 +41,11 @@ File > Import data > Using EEGLAB functions and plugins > From CED Spike Matlab 
 1. File > Export as...
 2. Choose MATLAB data *.mat and file name.
 3. Choose channels or 'All channels'.
-4. Choose time range: 0 to MaxTime().
+4. Choose time range: 0 to MaxTime() (*whether you want to export the whole recording)
 5. Click 'Add', then click 'Export'.
 6. Choose layout options as 'Waveform and times' then click 'OK'.
+
+*Please, be sure that your recording is scaled in microvolts (µV).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
