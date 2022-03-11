@@ -12,6 +12,8 @@
 %   Import is possible with .mat files that can be exported from CED Spike
 %   software.
 %
+% Repo & help: https://github.com/PTDZ/spike2EEGLAB
+%
 % Author: P. Dzianok, 2020-2022
 % Copyright (C) 2020 P. Dzianok, mail@ptdz.pl
 %
